@@ -1,0 +1,508 @@
+ *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+     
+}
+
+
+.mycontainer1{
+    padding: 1rem 90px
+   }
+   #Header{
+       position: fixed;
+       width: 100%;
+       padding: 30px 4rem;
+   }
+   .Header-all{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+   #Header-bottom{
+       background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/about.jpg);
+       background-position: top center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       padding: 300px 0px;
+       background-attachment: fixed;
+   }
+   .logo img{
+       max-height: 22px;
+       width: auto;
+   }
+   .Header-all{
+       margin: 0px 20px;
+   }
+   .navbar a{
+       text-decoration: none;
+       margin: 0px 20px;
+       color: #fff;
+       position: relative;
+   }
+   .icon a{
+       text-decoration: none;
+       color: #fff;
+       font-size: 12px;
+       font-weight: 400;
+   }
+   
+   .icon{
+       position: relative;
+   
+   }
+   .icon i{
+       transition: .8s;
+   }
+   .icon i:hover{
+       transform: translateY(-15%);
+   }
+   .icon span{
+       position: absolute;
+       color: #fff;
+       font-size: 13px;
+       background-color:#c0a483;
+       border-radius: 50%;
+       padding: 0px 5px;
+       text-align: center;
+       top: 10px;
+   }
+   
+   
+   .icon :hover i{
+       bottom: 10px;
+   }
+   
+   .navbar{
+       margin-right: 35rem;
+       display: flex;
+       align-items: center;
+   }
+   .icon :hover{
+       color: #c0a483;
+       cursor: pointer;
+   }
+   .icon a{
+       margin-right: 20px;
+       font-size: 12px;
+   
+   }
+   
+   #centericon{
+       margin: 20px;
+   }
+   .icon i{
+       font-size: 20px;
+       color: #fff
+   
+   }
+   .navbar a::before{
+       content: '';
+       position: absolute;
+       width: 0%;
+       background-color: #fff;
+       height: 1px;
+       bottom: 0px;
+       left: 0;
+       transition: .6s;
+   }
+   .navbar a:hover::before{
+       width: 100%;
+   }
+   .center-text{
+       text-align: center;
+   }
+   .center-text h1{
+       color: #FFFFFF;
+       font-family: 'Marcellus SC', serif; 
+       font-size: 70px;
+       line-height: 80px;
+   }
+   .center-text p{
+       color: #FFFFFF;
+       font-family: 'Marcellus SC', serif; 
+       font-size: 18px;
+       line-height: 24px;
+       letter-spacing: 3px;
+   }
+   #secondpage{
+       background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/about-us.jpg);
+       background-position: center;
+       background-size: contain;
+   }
+   .All-story{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+   .story-right h3{
+       font-size: 20px;
+       line-height: 24px;
+       margin: 0;
+       font-weight: 400;
+       letter-spacing: .3em;
+       text-transform: uppercase;
+   }
+   .story-right h2{
+       font-size: 50px;
+       line-height: 60px;
+       margin-top: 10px;
+       margin-bottom: 15px;
+       font-family: 'Marcellus SC', serif; 
+       color: #000;
+       font-weight: 400;
+   }
+   .story-left img{
+       margin-top: 40px;
+   }
+   
+#bckg img {
+    width: 100%;
+}
+
+.text2 {
+    box-sizing: border-box;
+    text-align: center;
+    color: #000000;
+    font-family: "Marcellus", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-top: 4rem
+}
+
+.text2 span {
+    color: #c0a483;
+}
+
+
+.slick-slide {
+    margin-left: 25px;
+    width: 300px;
+    position: relative;
+}
+
+.button_icons {
+
+    flex-direction: column;
+    position: absolute;
+    left: 90%;
+    top: 33%;
+    transition: .5s;
+    /* transform: translateX(42px); */
+    cursor: pointer;
+
+
+}
+
+/*
+.slick-slide:hover .button_icons {
+     animation-name: example;
+    animation-duration: 4s; 
+    transform: translateX(0);
+
+    transform: translate3d();
+    transition: .5s;
+    visibility: visible;
+}
+*/
+
+.search-icon {
+    transform: translateX(40px);
+    transition: .7s all;
+    opacity: 0;
+}
+
+.heart-icon {
+    transform: translateX(40px);
+    transition: .5s all;
+    opacity: 0;
+
+}
+
+.shopping-icon {
+    transform: translateX(40px);
+    transition: .3s all;
+    opacity: 0;
+
+}
+
+.slick-slide:hover .search-icon {
+    transform: translateX(0);
+
+    transform: translate3d();
+    visibility: visible;
+    opacity: 1;
+    transition: .3s all;
+}
+
+.slick-slide:hover .heart-icon {
+    transform: translateX(0);
+
+    transform: translate3d();
+    visibility: visible;
+    opacity: 1;
+    transition: .5s all;
+}
+
+.slick-slide:hover .shopping-icon {
+    transform: translateX(0);
+
+    transform: translate3d();
+    visibility: visible;
+    opacity: 1;
+    transition: .7s all;
+}
+
+
+
+
+.button_icons i {
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 5px;
+
+
+}
+
+.imageess{
+    background-color: #882424;
+    text-align: center;
+}
+.imageess svg{
+    width: 40%;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    padding: 35px;  
+    fill: #fff;
+}
+.allcoloricon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.imageess{
+    padding: 30px;
+}
+.imagesdi h1{
+    font-family: "Marcellus", Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    width: 100%;
+    color: #fff;
+    margin-top: 20px;
+}
+.imagesdi p{
+    color: #fff; 
+    font-family: "Marcellus", Sans-serif;
+}
+.allour{
+    background-color: #FAF4EE;
+}
+.our p{
+    text-align: center;
+    color: #000000;
+    font-family: "Marcellus", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.troll{
+    width: 408px;
+    padding: 0 15px;
+    display: block;
+    margin: 0;
+    font-family: Open Sans,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #868686;
+    text-align: left;
+    
+}
+.trcon i{
+    color: yellow;
+    
+}
+
+
+#new-letter {
+    background-color: #2a2b2d;
+    padding-top: 2rem;
+  }
+  
+  .iconandtext-all .iconandtext i {
+    font-size: 52px;
+    color: rgb(165, 159, 159);
+    color: #fff;
+  }
+  .iconandtext-all .iconandtext {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+  }
+  
+  .iconandtext-all .iconandtext .email-text span {
+    font-size: 37px;
+    font-family: Marcellus, serif;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+  }
+  .iconandtext-all .iconandtext .email-text p {
+    color: #fff;
+    font-family: Marcellus, serif;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .input-submit-all input {
+    width: 163%;
+    margin-top: 40px;
+    padding: 30px;
+    font-size: 15px;
+  }
+  .input-submit-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .input-submit-all .input-submit .btn {
+    background-color: #af8b61;
+    height: 55px;
+    line-height: 55px;
+    font-family: Marcellus, serif;
+    letter-spacing: 0.1em;
+    position: relative;
+    top: -84px;
+    right: -464px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 40px;
+    overflow: visible;
+    border-radius: 0px;
+  }
+  .costomer h1 {
+    font-family: "Marcellus", Sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 72px;
+  }
+  .costomer p {
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #868686;
+    text-align: left;
+    margin-top: 48px;
+  }
+  .contact-adress .adress svg {
+    width: 60px;
+    height: 60px;
+    color: rgb(165, 159, 159);
+    border: 1px solid #000;
+    padding: 7px;
+  }
+  .contact-adress .adress {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+  }
+  .contact-adress span {
+    font-family: "Marcellus", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+  .contact-adress .phone svg {
+    width: 60px;
+    height: 60px;
+    color: rgb(165, 159, 159);
+    border: 1px solid #000;
+    padding: 7px;
+  }
+  .contact-adress .phone {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+  }
+  .contact-adress .mail svg {
+    width: 60px;
+    height: 60px;
+    color: rgb(165, 159, 159);
+    border: 1px solid #000;
+    padding: 7px;
+  }
+  .contact-adress .mail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+  }
+
+
+  #slick-sliderrr{
+    background-color: #FAF4EE;
+}
+.slider-texttt h1{
+    text-align: center;
+    color: #000000;
+    font-family: 'Marcellus SC', serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.clients-texttt{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.top-text p{
+    color: darkgray;
+    /* font-family: 'Marcellus SC', serif; */
+}
+.top-text h1{
+    font-family: 'Marcellus SC', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 7px;
+    margin-bottom: 12px;
+}
+.top-text i{
+    color: #ffc107;
+}
+.slider-texttt{
+    padding: 20px;
+    margin-top: 50px;
+}
+.slider-texttt h1{
+    margin-top: 30px;
+}
+.bottom-texttt h2{
+    margin-top: 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 600;
+    font-family: Open Sans,sans-serif;
+}
+.bottom-texttt img{
+    border-radius: 100%;
+    margin: auto;
+}
+#bigpicture{
+    width: 27%;
+}
+.top-text{
+    margin-top: 25px;
+}
